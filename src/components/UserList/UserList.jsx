@@ -15,7 +15,6 @@ export default function UserList() {
         headers: { "app-id": import.meta.env.VITE_APP_ID },
       })
       .then((response) => {
-        console.log(response);
         const responseObject = response.data;
         setUsers([...responseObject.data]);
       });
