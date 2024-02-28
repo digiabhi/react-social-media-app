@@ -1,7 +1,8 @@
 .links {
     text-decoration: none;
+
 }
 
-.links :visited {
-    color: inherit
+.links:visited {
+    color: inherit;
 }
